@@ -1,0 +1,32 @@
+# Projeto: Análise de Palavras Mais Comentadas em Notícias 📰
+
+Este projeto tem como objetivo coletar dados de um site de notícias, analisar as palavras mais frequentes e gerar um gráfico visualizando essas informações. É uma aplicação básica que combina técnicas de web scraping e visualização de dados.
+
+---
+
+## 📋 Funcionalidades
+
+1. **Coleta de Dados**:
+   - Usa `requests` para baixar conteúdo HTML de um site de notícias.
+   - Usa `BeautifulSoup` para extrair textos ou conteúdos das notícias.
+
+2. **Análise de Palavras**:
+   - Processa o texto para remover palavras comuns (stopwords).
+   - Conta a frequência de palavras relevantes usando `collections.Counter`.
+
+3. **Visualização de Dados**:
+   - Gera gráficos de barras mostrando as palavras mais frequentes utilizando `matplotlib`.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.x**
+- Bibliotecas:
+  - `requests`: Para acessar o site e obter o HTML.
+  - `beautifulsoup4`: Para realizar o parsing do HTML.
+  - `collections`: Para análise da frequência de palavras.
+  - `matplotlib`: Para gerar gráficos.
+
+---
+
